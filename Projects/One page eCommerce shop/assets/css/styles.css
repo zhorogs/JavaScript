@@ -1,0 +1,356 @@
+/* Base */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+body h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Margins */
+:root {
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+
+/* Colors */
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --promo-color: #e74b54;
+  --descriptive-color-one: #333333;
+  --descriptive-color-two: #777777;
+  --descriptive-color-three: #f4f4f4;
+  --descriptive-color-four: #acacac;
+  --seo-color-one: #;
+}
+
+/* Page Wrap */
+.page-wrap {
+  width: 80%;
+  margin: auto;
+}
+
+.page-margin-bottom {
+  margin-bottom: var(--mb-4);
+}
+
+.page-margin-top {
+  margin-bottom: var(--mb-4);
+}
+
+/* CSS Classes */
+
+/* Promo delivery banner CSS Start */
+.promo-delivery {
+  background-color: var(--promo-color);
+  color: var(--white-color);
+  text-align: center;
+  padding: 10px;
+}
+/* Promo delivery banner CSS Start */
+
+/* Spring/Summer URBAN 2020 CSS Start */
+.banner-summer-urban-2020 {
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+
+.banner-summer-urban-2020-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 5px;
+}
+
+.banner-summer-urban-2020-text p {
+  color: var(--white-color);
+}
+
+.banner-summer-urban-2020-text p:nth-child(1) {
+  font-size: 0.7rem;
+}
+
+.banner-summer-urban-2020-text p:nth-child(2) {
+  background-color: var(--descriptive-color-one);
+  padding: 2px 10px 2px 10px;
+  margin-top: var(--mb-1);
+}
+/* Spring/Summer URBAN 2020 CSS End */
+
+/* Big/Full width banner CSS Start */
+.banner-urban-comfort {
+  position: relative;
+  text-align: center;
+}
+
+.banner-urban-comfort-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  color: var(--white-color);
+  font-size: 1.5rem;
+  line-height: 3.375rem;
+}
+
+.banner-urban-comfort-text h1 {
+  margin-bottom: var(--mb-2);
+}
+
+.btn {
+  background-color: #ffffff;
+  border-radius: 0px;
+  color: #000000;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+/* Big/Full width banner CSS End */
+
+/* Most Visited section CSS Start */
+.box-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--white-color);
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 0.2rem;
+  justify-items: center;
+}
+
+.box-caption {
+  position: absolute;
+  letter-spacing: 1px;
+  bottom: 6%;
+}
+
+.box-flex-bottom {
+  align-items: flex-end;
+}
+/* Most Visited section CSS End */
+
+/* FLEX FIT and URBAN STYLE CSS Start */
+.flex-fit-urban-style {
+  margin-top: var(--mb-4);
+  margin-bottom: var(--mb-4);
+}
+
+.flex-fit-urban-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.urban-style-banner-1-position {
+  position: absolute;
+  background-color: black;
+  bottom: 0;
+  left: 11.5%;
+  padding: 10px;
+}
+
+.urban-style-banner-2-position {
+  position: absolute;
+  background-color: black;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.flex-fit-urban-style-text {
+  text-align: center;
+  margin-top: var(--mb-2);
+  color: #333333;
+}
+
+.flex-fit-urban-style-btn {
+  background-color: var(--white-color);
+  padding: 10px;
+  width: 180px;
+  height: 45px;
+  font-size: 14px;
+  border: 1px solid #333333;
+  font-weight: 500;
+  margin: var(--mb-2);
+}
+/* FLEX FIT and URBAN STYLE CSS End */
+
+/* Generic Banners after FlEX FIT Section CSS Start */
+.generic-banners {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  position: relative;
+  text-align: center;
+  justify-content: space-between;
+  grid-gap: 1rem;
+}
+
+.generic-banners-text {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+}
+
+.generic-banners-text a {
+  color: var(--white-color);
+}
+
+/* Generic Banners after FlEX FIT Section CSS End */
+
+/* SEO CSS Start */
+.seo {
+  text-align: left;
+  font-size: 1.375rem;
+}
+.seo-summary-text {
+  color: #666666;
+  font-size: 12px;
+}
+
+.content {
+  display: none;
+  font-size: 12px;
+}
+
+.read-more {
+  cursor: pointer;
+  font-size: 0.8125rem;
+}
+/* SEO CSS End */
+
+/* Footer CSS Start */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.footer-top p {
+  display: inline-block;
+  font-size: 11px;
+  color: #666666;
+}
+
+.footer-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+}
+
+.img-envelope {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+.footer-mail-btn {
+  background-color: var(--white-color);
+  width: 350px;
+  margin: 5px;
+}
+
+.speedy-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.payment {
+  border: 0.756972px solid #b8b8b8;
+  box-sizing: border-box;
+  border-radius: 2.27092px;
+}
+
+@media (max-width: 768px) {
+  .footer-align {
+    flex: 1 1 75%;
+  }
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  text-align: left;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.underline {
+  text-decoration: underline;
+  color: #666666;
+}
+
+a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* Footer CSS End */
+
+/* Glides CSS Start */
+.glide__slides {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Glides CSS End */
