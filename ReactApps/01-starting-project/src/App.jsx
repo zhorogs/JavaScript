@@ -7,12 +7,12 @@ function genRandomInt(max) {
   return Math.floor(Math.random() * (max + 1));
 }
 
-function CoreConcept() {
+function CoreConcept(props) {
   return (
     <li>
-      <img src="" alt="" />
-      <h3>Title</h3>
-      <p>Description</p>
+      <img src={props.img} alt={props.title} />
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
     </li>
   )
 }
@@ -35,7 +35,7 @@ function App() {
     <div>
       <Header />
       <main>
-        <section id="core-conceptss">
+        <section id="core-concepts">
           <h2>Core Concepts</h2>
           <ul>
             <CoreConcept
@@ -44,9 +44,9 @@ function App() {
               img={componentsImg} />
             <CoreConcept />
             <CoreConcept />
+            <CoreConcept />
           </ul>
         </section>
-
       </main>
     </div>
   );
