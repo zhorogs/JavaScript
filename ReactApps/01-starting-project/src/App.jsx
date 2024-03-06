@@ -1,5 +1,5 @@
 import reactImage from './assets/react-core-concepts.png'
-import { CORE_CONCEPTS } from './'
+import { CORE_CONCEPTS } from './data.js'
 
 const reactDescriptions = ['Fundamental', 'Crucial', 'Core'];
 
