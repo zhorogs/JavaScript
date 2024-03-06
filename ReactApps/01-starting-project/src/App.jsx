@@ -41,10 +41,19 @@ function App() {
             <CoreConcept
               title={CORE_CONCEPTS[0].title}
               description={CORE_CONCEPTS[0].description}
-              img={CORE_CONCEPTS[0].img} />
-            <CoreConcept />
-            <CoreConcept />
-            <CoreConcept />
+              img={CORE_CONCEPTS[0].image} />
+            <CoreConcept
+              title={CORE_CONCEPTS[1].title}
+              description={CORE_CONCEPTS[1].description}
+              img={CORE_CONCEPTS[1].image} />
+            <CoreConcept
+              title={CORE_CONCEPTS[2].title}
+              description={CORE_CONCEPTS[2].description}
+              img={CORE_CONCEPTS[2].image} />
+            <CoreConcept
+              title={CORE_CONCEPTS[3].title}
+              description={CORE_CONCEPTS[3].description}
+              img={CORE_CONCEPTS[3].image} />
           </ul>
         </section>
       </main>
