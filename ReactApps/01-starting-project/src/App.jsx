@@ -1,12 +1,6 @@
 import reactImage from './assets/react-core-concepts.png'
 import { CORE_CONCEPTS } from './data.js'
 
-const reactDescriptions = ['Fundamental', 'Crucial', 'Core'];
-
-function genRandomInt(max) {
-  return Math.floor(Math.random() * (max + 1));
-}
-
 function CoreConcept({ title, description, image }) {
   return (
     <li>
