@@ -1,5 +1,5 @@
-export default function TabButton() {
+export default function TabButton(props) {
     return (
-        <li><button></button></li>
+        <li><button>{props.children}</button></li>
     )
 }
