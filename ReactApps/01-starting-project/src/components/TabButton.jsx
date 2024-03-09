@@ -1,4 +1,4 @@
-export default function TabButton({ children }) {
+export default function TabButton({ children, onClick }) {
 
     function handleClick() {
         console.log("hello world")
