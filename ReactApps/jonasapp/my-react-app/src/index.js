@@ -49,16 +49,18 @@ const pizzaData = [
 function App() {
     return (
         <div>
+            <Header />
             <h1>Hello React!</h1>
             <Pizza />
             <Pizza />
             <Pizza />
+            <Footer />
         </div>
     )
 };
 
 function Header() {
-
+    return <h1>Fast React Pizza Co.</h1>
 }
 
 function Menu() {
@@ -66,7 +68,11 @@ function Menu() {
 }
 
 function Footer() {
-
+    return (
+        <footer>
+            {new Date().toLocaleTimeString()} We are currently open!
+        </footer>
+    )
 }
 
 function Pizza() {
