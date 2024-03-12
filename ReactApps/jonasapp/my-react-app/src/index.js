@@ -74,8 +74,16 @@ function Menu() {
             <h2>
                 Our menu
             </h2>
-            <Pizza />
-            <Pizza />
+            <Pizza
+                name="Pizza Spinaci" ingredients="Tomato, mozarella, spinach, and ricotta cheese."
+                price="10"
+                photoName="pizzas/spinaci.jpg" />
+            <Pizza
+                name="Pizza Funghi"
+                ingredients="Tomato, mushrooms, onions, cheese"
+                price="12"
+                photoName="pizzas/funghi.jpg"
+            />
             <Pizza />
             <Pizza />
         </main>
@@ -100,13 +108,15 @@ function Footer() {
     )
 }
 
-function Pizza() {
+function Pizza(props) {
     return (
-        <div>
-            <img src="pizzas/spinaci.jpg" alt="Pizza spinaci" />
-            <h3>Pizza Spinaci</h3>
-            <p>Tomato, mozarella, spinach, and ricotta cheese.</p>
-        </div>
+        <div className="pizza">
+            <img src={props.photoName}
+                alt={props.name} />
+            <h3>{props.name}</h3>
+            <p>Ingredients: {props.ingredients}</p>
+            <p>Price: {props.price}$</p>
+        </div >
     )
 }
 // React V18
