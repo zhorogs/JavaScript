@@ -49,7 +49,7 @@ const pizzaData = [
 
 function App() {
     return (
-        <div>
+        <div className="container">
             <Header />
             <h1>Hello React!</h1>
             <Menu />
@@ -60,15 +60,17 @@ function App() {
 
 function Header() {
     return (
-        <h1>
-            Fast React Pizza Co.
-        </h1>
+        <header className="header">
+            <h1>
+                Fast React Pizza Co.
+            </h1>
+        </header>
     )
 }
 
 function Menu() {
     return (
-        <div>
+        <main className="menu">
             <h2>
                 Our menu
             </h2>
@@ -76,7 +78,7 @@ function Menu() {
             <Pizza />
             <Pizza />
             <Pizza />
-        </div>
+        </main>
     )
 }
 
