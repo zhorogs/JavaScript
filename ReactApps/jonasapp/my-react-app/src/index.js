@@ -114,7 +114,7 @@ function Pizza(props) {
             <img src={props.photoName}
                 alt={props.name} />
             <h3>{props.name}</h3>
-            <p>Ingredients: {props.ingredients}</p>
+            <span>Ingredients: {props.ingredients}</span>
             <span>Price:{props.price + 3}$</span>
         </div >
     )
