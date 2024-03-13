@@ -69,18 +69,19 @@ function Header() {
 }
 
 function Menu() {
+    const pizzas = pizzaData;
     return (
         <main className="menu">
 
-            <h2>
-                Our menu
-            </h2>
+            <h2>Our menu </h2>
 
-            <ul className="pizzas">
+            {pizzas && <ul className="pizzas">
                 {pizzaData.map((pizza) => (
-                    < Pizza pizzaObj={pizza} key={pizza.name} />
+                    < Pizza pizzaObj={pizza} key={pizzas.name} />
                 ))}
-            </ul>
+            </ul>}
+
+
             {/* <Pizza
                 name="Pizza Spinaci" ingredients="Tomato, mozarella, spinach, and ricotta cheese."
                 price={10}
