@@ -82,7 +82,7 @@ function Menu() {
                 {pizzaData.map((pizza) => (
                     < Pizza pizzaObj={pizza} key={pizzas.name} />
                 ))}
-            </ul>) : null}
+            </ul>) : <p>We're still working on our menu, please come back later.</p>}
 
 
 
