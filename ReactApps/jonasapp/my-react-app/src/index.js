@@ -78,11 +78,12 @@ function Menu() {
 
             <h2>Our menu </h2>
 
-            {numPizzas > 0 && <ul className="pizzas">
+            {numPizzas > 0 ? (<ul className="pizzas">
                 {pizzaData.map((pizza) => (
                     < Pizza pizzaObj={pizza} key={pizzas.name} />
                 ))}
-            </ul>}
+            </ul>) : null}
+
 
 
             {/* <Pizza
