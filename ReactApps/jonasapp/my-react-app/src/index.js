@@ -111,11 +111,11 @@ function Footer() {
 
     return (
         <footer className="footer">
-            {isOpen && (
+            {isOpen ? (
                 <div className="order"><p>We're open untill 23 PM.</p>
                     <button className="btn">Order</button>
                 </div>
-            )}
+            ) : <p>We're happy to welcome you between {closeHour} and {openHour}</p>}
         </footer>
     )
 }
