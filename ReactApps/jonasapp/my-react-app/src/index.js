@@ -84,8 +84,6 @@ function Menu() {
                 ))}
             </ul>) : <p>We're still working on our menu, please come back later.</p>}
 
-
-
             {/* <Pizza
                 name="Pizza Spinaci" ingredients="Tomato, mozarella, spinach, and ricotta cheese."
                 price={10}
