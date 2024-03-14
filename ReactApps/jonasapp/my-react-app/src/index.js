@@ -109,7 +109,7 @@ function Footer() {
     //if (hour >= openHour && hour <= closedHour) alert("We're currently open!")
     //alert("Sorry, We're closed!");
 
-    if (!isOpen) return (<p>We're happy to welcome you between {closeHour} and {openHour}</p>);
+    //if (!isOpen) return (<p>We're happy to welcome you between {closeHour} and {openHour}</p>);
 
     return (
         <footer className="footer">
