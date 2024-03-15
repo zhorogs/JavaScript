@@ -125,18 +125,18 @@ function Order(props) {
     )
 }
 
-function Pizza(props) {
+function Pizza({ pizzaObj }) {
 
-    if (props.pizzaObj.soldOut) return null;
+    if (pizzaObj.soldOut) return null;
 
     return (
         <li className="pizza">
-            <img src={props.pizzaObj.photoName}
-                alt={props.pizzaObj.name} />
+            <img src={pizzaObj.photoName}
+                alt={pizzaObj.name} />
             <div>
-                <h3>{props.pizzaObj.name}</h3>
-                <span>Ingredients: {props.pizzaObj.ingredients}</span>
-                <span>Price:{props.pizzaObj.price + 3}$</span>
+                <h3>{pizzaObj.name}</h3>
+                <span>Ingredients: {pizzaObj.ingredients}</span>
+                <span>Price:{pizzaObj.price + 3}$</span>
             </div>
         </li>
     )
