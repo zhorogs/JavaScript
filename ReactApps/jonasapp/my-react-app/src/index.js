@@ -112,14 +112,14 @@ function Footer() {
 
     return (
         <footer className="footer">
-            {isOpen ? <Order openHour={openHour} /> : <p>We're happy to welcome you between {closeHour} and {openHour}</p>}
+            {isOpen ? <Order closeHour={closeHour} /> : <p>We're happy to welcome you between {closeHour} and {openHour}</p>}
         </footer >
     )
 }
 
 function Order(props) {
     return (
-        <div className="order"><p>We're open {props.closeHour}:00.</p>
+        <div className="order"><p>We're open untill {props.closeHour}:00. Come visit us or order online.</p>
             <button className="btn">Order</button>
         </div>
     )
