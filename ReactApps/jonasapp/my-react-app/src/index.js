@@ -112,14 +112,14 @@ function Footer() {
 
     return (
         <footer className="footer">
-            {isOpen ? <Order closeHour={closeHour} /> : <p>We're happy to welcome you between {closeHour} and {openHour}</p>}
+            {isOpen ? <Order closeHour={closeHour} openHour={openHour} /> : <p>We're happy to welcome you between {closeHour} and {openHour}</p >}
         </footer >
     )
 }
 
-function Order({ closeHour }) {
+function Order({ closeHour, openHour }) {
     return (
-        <div className="order"><p>We're open untill {closeHour}:00. Come visit us or order online.</p>
+        <div className="order"><p>We're open from {openHour}:00 to {closeHour}:00. Come visit us or order online.</p>
             <button className="btn">Order</button>
         </div>
     )
