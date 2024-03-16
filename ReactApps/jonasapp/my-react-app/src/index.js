@@ -51,7 +51,6 @@ function App() {
     return (
         <div className="container">
             <Header />
-            <h1>Hello React!</h1>
             <Menu />
             <Footer />
         </div>
