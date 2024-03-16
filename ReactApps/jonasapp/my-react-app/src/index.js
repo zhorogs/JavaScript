@@ -131,7 +131,7 @@ function Order({ closeHour, openHour }) {
 
 function Pizza({ pizzaObj }) {
 
-    if (pizzaObj.soldOut) return null;
+    //if (pizzaObj.soldOut) return null;
 
     return (
         <li className="pizza">
