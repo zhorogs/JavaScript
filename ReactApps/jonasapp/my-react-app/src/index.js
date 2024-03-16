@@ -78,6 +78,8 @@ function Menu() {
 
             <h2>Our menu </h2>
 
+            <p>Authentic Italian cuisine. 6 creative dishes to choose from. All from our stone oven, all organic, all delicious.</p>
+
             {numPizzas > 0 ? (<ul className="pizzas">
                 {pizzaData.map((pizza) => (
                     < Pizza pizzaObj={pizza} key={pizzas.name} />
