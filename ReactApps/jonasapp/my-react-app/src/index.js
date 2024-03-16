@@ -139,7 +139,7 @@ function Pizza({ pizzaObj }) {
                 alt={pizzaObj.name} />
             <div>
                 <h3>{pizzaObj.name}</h3>
-                <span>{pizzaObj.ingredients}</span>
+                <p>{pizzaObj.ingredients}</p>
                 <span>{pizzaObj.soldOut ? "Sold out" : pizzaObj.price}$</span>
             </div>
         </li>
