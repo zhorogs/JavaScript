@@ -17,3 +17,17 @@ console.log(firstName);
 
 /* let 3years = 3 - prohibited, js wont let us; syntax error; invalid or expected token */;
 
+/* let zhor&dudu = 'ZD' prohibited, js wont let us; syntax error; invalid or expected token */;
+
+let zhoro_dudi = 'ZD works';
+
+/* let new = 27; cannot use reserver key words, same goes for function, etc */;
+
+let name = 'zhoro';
+
+/* 'name' keyword can cause problems, but (seems bad practice?) */;
+
+let Person = 'zhoro';
+
+/* convention to not start variable names with upper case, variables with upper case naming are reserver for constats, like Pi */
+
