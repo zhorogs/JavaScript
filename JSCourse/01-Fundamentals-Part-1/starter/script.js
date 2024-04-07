@@ -72,3 +72,15 @@ console.log(typeof 'Zhoro');
 
 javascriptIsFun = 'YES!';
 console.log(typeof javascriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
+//undefined in console.log;
+
+year = 1991;
+console.log(year);
+console.log(typeof year);
+
+console.log(typeof null);
+// type of null is object?? its a bug, error in JS, null is not an object
