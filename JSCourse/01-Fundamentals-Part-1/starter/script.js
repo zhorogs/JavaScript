@@ -1,3 +1,5 @@
+/* VALUES AND VARIABLES */
+
 let js = 'amazing';
 if (js === 'amazing') alert('js is fun');
 
@@ -41,3 +43,7 @@ let job1 = 'support l1';
 let job2 = 'support l2';
 
 console.log(myFirstJob);
+
+/* DATA TYPES */
+
+
