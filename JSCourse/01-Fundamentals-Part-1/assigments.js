@@ -7,3 +7,12 @@ Log their values to the console. */
 let country = 'Bulgaria';
 let continent = 'Europe';
 let population = '7000000';
+
+console.log(country, continent, population);
+
+/* or
+console.log(country);
+console.log(continent);
+console.log(population);
+*/
+
