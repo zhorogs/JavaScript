@@ -29,5 +29,15 @@ let name = 'zhoro';
 
 let Person = 'zhoro';
 
-/* convention to not start variable names with upper case, variables with upper case naming are reserver for constats, like Pi */
+/* convention to not start variable names with upper case, variables with upper case naming are *reserved* for constats, like Pi */;
+
+/* variable names should be descriptive */;
+
+let myFirstJob = 'support l1';
+let myCurrentJob = 'support l2'
+/* right in the meow meow */;
+
+let job1 = 'support l1';
+let job2 = 'support l2';
+
 
