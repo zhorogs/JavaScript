@@ -14,3 +14,6 @@ let first_name_person = 'zhoro_';
 console.log(firstName);
 console.log(firstName);
 console.log(firstName);
+
+/* let 3years = 3 - prohibited, js wont let us; syntax error; invalid or expected token */;
+
