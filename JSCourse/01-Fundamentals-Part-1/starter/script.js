@@ -40,4 +40,4 @@ let myCurrentJob = 'support l2'
 let job1 = 'support l1';
 let job2 = 'support l2';
 
-
+console.log(myFirstJob);
