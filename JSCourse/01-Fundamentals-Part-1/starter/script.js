@@ -141,6 +141,12 @@ console.log(x);
 
 x += 10;
 // this means x = x + 10
+x *= 4;
+// this means x = x * 4;
+x++;
+// this means x = x + 1
+x--;
+x--;
 console.log(x);
 
 
