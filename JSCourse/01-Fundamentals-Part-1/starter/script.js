@@ -89,15 +89,15 @@
 
 /* We use the 'let' keyword to declare variables that can change later, during execution of the program */
 
-let age = 30;
-age = 31;
+//let age = 30;
+//age = 31;
 
 /* re-assigning value to a variable, mutate the age variable */
 
 /* we use 'const' to declare variables taht are not supposed to change
 during/at any point of the execution of the program or in the future, const cannot be changed*/
 
-const birthYear = 1991;
+//const birthYear = 1991;
 
 /* birthYear = 1992 
 throws an error */;
@@ -108,10 +108,20 @@ throws an error */;
 
 /* 'var' keyword should be avoided, but we have to know how it works for legacy reasons, var is prior to ES6 */
 
-var job = 'support';
-job = 'support l2';
+//var job = 'support';
+//job = 'support l2';
 
-lastName = 'Zhoro';
-console.log(lastName);
+//lastName = 'Zhoro';
+//console.log(lastName);
 
 /* this does not create the variable in the current scope, it will create a property on the global object, should always properly declare variables */;
+
+/* FUNDAMENTAL BASIC OPERATORS */
+
+/* operator allows us to transform values or combine them, or do any kind of work with values */;
+
+const now = 2024;
+const ageZhoro = now - 1991;
+const ageDudu = now - 1991;
+console.log(ageZhoro, ageDudu);
+console.log(ageZhoro * 2, ageZhoro / 2);
