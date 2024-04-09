@@ -132,3 +132,10 @@ const firstName = 'zhoro';
 const lastName = 'slavchev';
 
 console.log(firstName + ' ' + lastName);
+
+/* assignment operators, '=' */;
+
+let x = 10 + 5;
+//x will be assigned 15, because + is executed before =, based on operator presedence
+console.log(x);
+
