@@ -154,3 +154,12 @@ console.log(x);
 //comparison operators, to produce boolean values;
 
 console.log(ageZhoro > ageDudu)
+// >, <, >=, <=
+console.log(ageDudu >= 18);
+
+const isFullAge = ageDudu >= 18;
+console.log(isFullAge);
+
+console.log(now - 1991 > now - 2018);
+
+//operator precedence - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
