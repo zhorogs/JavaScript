@@ -124,4 +124,11 @@ const now = 2024;
 const ageZhoro = now - 1991;
 const ageDudu = now - 1991;
 console.log(ageZhoro, ageDudu);
-console.log(ageZhoro * 2, ageZhoro / 2);
+console.log(ageZhoro * 2, ageZhoro / 2, 2 ** 3);
+
+// 2 ** 3 means 2 to the power or 3 = 2 * 2 * 2;
+
+const firstName = 'zhoro';
+const lastName = 'slavchev';
+
+console.log(firstName + lastName);
