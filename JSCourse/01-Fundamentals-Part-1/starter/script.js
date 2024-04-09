@@ -131,4 +131,4 @@ console.log(ageZhoro * 2, ageZhoro / 2, 2 ** 3);
 const firstName = 'zhoro';
 const lastName = 'slavchev';
 
-console.log(firstName + lastName);
+console.log(firstName + ' ' + lastName);
