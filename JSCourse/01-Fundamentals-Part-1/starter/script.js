@@ -47,7 +47,7 @@
 
 /* DATA TYPES */
 
-/* there are 7 primitive data types 
+/* there are 7 primitive data types
 1. Number - Floating point numbers, used for decimal and integers let age = 23;
 2. String - Sequence of characters, used for text let firstname = 'zhoro;
 3. Boolean - Logical type that can only be true or false, used for taking decisions let fullAge = true;
@@ -61,26 +61,29 @@
 
 /* its the value that has a type, not the variable */
 
-true;
-let javascriptIsFun = true;
-console.log(javascriptIsFun);
+//true;
+//let javascriptIsFun = true;
+//console.log(javascriptIsFun);
 
-console.log(typeof true);
-console.log(typeof javascriptIsFun);
-console.log(typeof 23);
-console.log(typeof 'Zhoro');
+//console.log(typeof true);
+//console.log(typeof javascriptIsFun);
+//console.log(typeof 23);
+//console.log(typeof 'Zhoro');
 
-javascriptIsFun = 'YES!';
-console.log(typeof javascriptIsFun);
+//javascriptIsFun = 'YES!';
+//console.log(typeof javascriptIsFun);
 
-let year;
-console.log(year);
-console.log(typeof year);
+//let year;
+//console.log(year);
+//console.log(typeof year);
 //undefined in console.log;
 
-year = 1991;
-console.log(year);
-console.log(typeof year);
+//year = 1991;
+//console.log(year);
+//console.log(typeof year);
 
-console.log(typeof null);
+//console.log(typeof null);
 // type of null is object?? its a bug, error in JS, null is not an object
+
+/* LET, CONST, VAR*/
+
