@@ -120,6 +120,7 @@ throws an error */;
 
 /* operator allows us to transform values or combine them, or do any kind of work with values */;
 
+//math operators
 const now = 2024;
 const ageZhoro = now - 1991;
 const ageDudu = now - 1991;
@@ -139,6 +140,7 @@ let x = 10 + 5;
 //x will be assigned 15, because + is executed before =, based on operator presedence
 console.log(x);
 
+// assignment operators
 x += 10;
 // this means x = x + 10
 x *= 4;
@@ -149,4 +151,6 @@ x--;
 x--;
 console.log(x);
 
+//comparison operators, to produce boolean values;
 
+console.log(ageZhoro > ageDudu)
