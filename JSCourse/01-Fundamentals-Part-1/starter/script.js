@@ -139,3 +139,8 @@ let x = 10 + 5;
 //x will be assigned 15, because + is executed before =, based on operator presedence
 console.log(x);
 
+x += 10;
+// this means x = x + 10
+console.log(x);
+
+
