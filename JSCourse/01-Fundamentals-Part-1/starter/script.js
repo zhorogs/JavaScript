@@ -121,7 +121,7 @@ throws an error */;
 /* operator allows us to transform values or combine them, or do any kind of work with values */;
 
 //math operators
-const now = 2024;
+/* const now = 2024;
 const ageZhoro = now - 1991;
 const ageDudu = now - 1991;
 console.log(ageZhoro, ageDudu);
@@ -136,6 +136,7 @@ console.log(firstName + ' ' + lastName);
 
 /* assignment operators, '=' */;
 
+/*
 let x = 10 + 5;
 //x will be assigned 15, because + is executed before =, based on operator presedence
 console.log(x);
@@ -162,4 +163,4 @@ console.log(isFullAge);
 
 console.log(now - 1991 > now - 2018);
 
-//operator precedence - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
+//operator precedence - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence */
