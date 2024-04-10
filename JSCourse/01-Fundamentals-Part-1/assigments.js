@@ -6,7 +6,7 @@ Log their values to the console. */
 
 const country = 'Bulgaria';
 const continent = 'Europe';
-let population = '7000000';
+let population = 7;
 
 console.log(country, continent, population);
 
@@ -50,17 +50,17 @@ const half = population / 2;
 console.log(half, 'half pop in each half');
 population++;
 console.log(population);
-population = 7000000;
+population = 7;
 
-const finPop = 6000000;
+const finPop = 6;
 
 const comparePop = population > finPop;
 console.log(comparePop);
 
-const countryAvgPop = 33000000;
+const countryAvgPop = 33;
 
 const compareAvgPop = population <= countryAvgPop;
 console.log(compareAvgPop);
 
-let description = country + ' is in ' + continent + ', ' + 'and its all ' + population + ' million people speak ' + language + '.';
+const description = country + ' is in ' + continent + ', ' + 'and its all ' + population + ' million people speak ' + language + '.';
 console.log(description);
