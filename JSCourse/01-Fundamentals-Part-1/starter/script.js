@@ -190,18 +190,18 @@ const averageAge2 = (ageZhoro + ageDudu) / 2
 
 console.log(ageZhoro, ageDudu); */
 
-const firstName = 'Zhoro';
+/* const firstName = 'Zhoro';
 const job = 'support l2 agent';
 const birthYear = 1991;
 const year = 2024;
 
 const zhoro = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '.'
 
-console.log(zhoro);
+console.log(zhoro); */
 
 //starting with ES6 we have template literals
 
-const zhoroNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}.`;
+/* const zhoroNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}.`;
 console.log(zhoroNew);
 
 console.log(`just a string...`)
@@ -216,4 +216,14 @@ lines');
 
 console.log(`String
 with multiple
-lines`)
+lines`) */
+
+const age = 15;
+
+if (age >= 18) {
+    console.log(`Sarah can start a driving license.`)
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is not old enough to drive, she needs to grow up with ${yearsLeft} more years to drive.`)
+};
+
