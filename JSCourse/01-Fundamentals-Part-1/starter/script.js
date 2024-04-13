@@ -227,5 +227,16 @@ if (age >= 18) {
     console.log(`Sarah is not old enough to drive, she needs to grow up with ${yearsLeft} more years to drive.`)
 };
 
+const birthYear = 1991;
+let century;
+
+if (birthYear <= 2000) {
+    century = 20
+} else {
+    century = 21
+};
+
+console.log(century)
+
 
 

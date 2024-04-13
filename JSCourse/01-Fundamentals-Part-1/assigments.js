@@ -4,11 +4,11 @@
 
 Log their values to the console. */
 
-const country = 'Bulgaria';
+/* const country = 'Bulgaria';
 const continent = 'Europe';
 let population = 7;
 
-console.log(country, continent, population);
+console.log(country, continent, population); */
 
 /* or
 console.log(country);
@@ -22,10 +22,10 @@ Declare a variable called isIsland and set its value according to your country. 
 Log the types of isIsland, population, country and language to the console.
 */;
 
-const isIsland = false;
+/* const isIsland = false;
 const language = 'Bulgarian';
 
-console.log(isIsland, population, country, language);
+console.log(isIsland, population, country, language); */
 
 /* ASSIGNMENT N3 let const var 
 Set the value of language to the language spoken where you live (some countries have multiple languages, but just choose one).
@@ -45,6 +45,18 @@ Finland has a population of 6 million. Does your country have more people than F
 The average population of a country is 33 million people. Does you country have less people than the average country?
 
 Based on the variables you created, create a new variable description which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese'.*/
+
+/* 
+const country = 'Bulgaria';
+const continent = 'Europe';
+let population = 7;
+
+console.log(country, continent, population);
+
+const isIsland = false;
+const language = 'Bulgarian';
+
+console.log(isIsland, population, country, language);
 
 const half = population / 2;
 console.log(half, 'half pop in each half');
@@ -66,4 +78,4 @@ const description = country + ' is in ' + continent + ', ' + 'and its all ' + po
 console.log(description);
 
 const descriptionNew = `${country} is in ${continent} and its all ${population} millions of people speak ${language}.`;
-console.log(descriptionNew)
+console.log(descriptionNew) */
