@@ -167,6 +167,7 @@ console.log(now - 1991 > now - 2018);
 
 /* OPERATOR PRECEDENCE */
 
+/*
 const now = 2024;
 const ageZhoro = now - 1991;
 const ageDudu = now - 1991;
@@ -187,4 +188,4 @@ const averageAge = ageZhoro + ageDudu / 2
 
 const averageAge2 = (ageZhoro + ageDudu) / 2
 
-console.log(ageZhoro, ageDudu);
+console.log(ageZhoro, ageDudu); */
