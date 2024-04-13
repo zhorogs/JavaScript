@@ -19,7 +19,7 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 
 //BMI = mass / (height * height);
 
-let massMark = 78;
+/* let massMark = 78;
 let heightMark = 1.69;
 
 let massJohn = 92;
@@ -32,4 +32,6 @@ console.log(BMIMark);
 console.log(BMIJohn);
 
 let markHigherBMI = BMIMark > BMIJohn
-console.log(markHigherBMI);
+console.log(markHigherBMI); */
+
+
