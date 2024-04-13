@@ -179,3 +179,12 @@ let x, y;
 x = y = 25 - 10 - 5;
 console.log(x, y);
 // x = y = 10 first, x = 10;
+// higher percedence, executed first, lower precedence, executet second;
+
+const averageAge = ageZhoro + ageDudu / 2
+
+//vs
+
+const averageAge2 = (ageZhoro + ageDudu) / 2
+
+console.log(ageZhoro, ageDudu);
