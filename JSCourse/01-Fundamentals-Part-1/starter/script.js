@@ -203,3 +203,17 @@ console.log(zhoro);
 
 const zhoroNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}.`;
 console.log(zhoroNew);
+
+console.log(`just a string...`)
+
+//using template literals we can create multi line strings
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+//vs 
+
+console.log(`String
+with multiple
+lines`)

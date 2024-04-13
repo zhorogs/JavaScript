@@ -4,11 +4,11 @@
 
 Log their values to the console. */
 
-const country = 'Bulgaria';
+/* const country = 'Bulgaria';
 const continent = 'Europe';
 let population = 7;
 
-console.log(country, continent, population);
+console.log(country, continent, population); */
 
 /* or
 console.log(country);
@@ -22,10 +22,10 @@ Declare a variable called isIsland and set its value according to your country. 
 Log the types of isIsland, population, country and language to the console.
 */;
 
-const isIsland = false;
+/* const isIsland = false;
 const language = 'Bulgarian';
 
-console.log(isIsland, population, country, language);
+console.log(isIsland, population, country, language); */
 
 /* ASSIGNMENT N3 let const var 
 Set the value of language to the language spoken where you live (some countries have multiple languages, but just choose one).
