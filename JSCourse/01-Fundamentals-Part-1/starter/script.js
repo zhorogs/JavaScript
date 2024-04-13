@@ -189,3 +189,17 @@ const averageAge = ageZhoro + ageDudu / 2
 const averageAge2 = (ageZhoro + ageDudu) / 2
 
 console.log(ageZhoro, ageDudu); */
+
+const firstName = 'Zhoro';
+const job = 'support l2 agent';
+const birthYear = 1991;
+const year = 2024;
+
+const zhoro = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '.'
+
+console.log(zhoro);
+
+//starting with ES6 we have template literals
+
+const zhoroNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}.`;
+console.log(zhoroNew);
