@@ -164,3 +164,18 @@ console.log(isFullAge);
 console.log(now - 1991 > now - 2018);
 
 //operator precedence - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence */
+
+/* OPERATOR PRECEDENCE */
+
+const now = 2024;
+const ageZhoro = now - 1991;
+const ageDudu = now - 1991;
+
+console.log(now - 1991 > now - 2018);
+
+console.log(25 - 10 - 5);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+// x = y = 10 first, x = 10;
