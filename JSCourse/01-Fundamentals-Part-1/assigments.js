@@ -34,8 +34,8 @@ Think about which variables should be const variables (which values will never c
 
 Try to change one of the changed variables now, and observe what happens.*/;
 
-/* ASSIGNMENT N4 
-Basic Operators﻿
+/* ASSIGNMENT N4
+Basic Operators
 If your country split in half, and each half would contain half the population, then how many people would live in each half?
 
 Increase the population of your country by 1 and log the result to the console.
@@ -46,7 +46,7 @@ The average population of a country is 33 million people. Does you country have 
 
 Based on the variables you created, create a new variable description which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese'.*/
 
-/* 
+/*
 const country = 'Bulgaria';
 const continent = 'Europe';
 let population = 7;
@@ -79,3 +79,46 @@ console.log(description);
 
 const descriptionNew = `${country} is in ${continent} and its all ${population} millions of people speak ${language}.`;
 console.log(descriptionNew) */
+
+//ASSIGNMENT N5
+
+/* If your country's population is greater than 33 million, log a string like this to the console: "Portugal's population is 22 million below average" (the 22 is the average of 33 minus the country's population).
+
+After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original. */
+
+/* const country = 'Bulgaria';
+const continent = 'Europe';
+let population = 7;
+
+console.log(country, continent, population);
+
+const isIsland = false;
+const language = 'Bulgarian';
+
+console.log(isIsland, population, country, language);
+
+const half = population / 2;
+console.log(half, 'half pop in each half');
+population++;
+console.log(population);
+population = 7;
+
+const finPop = 6;
+
+const comparePop = population > finPop;
+console.log(comparePop);
+
+const countryAvgPop = 33;
+
+const compareAvgPop = population <= countryAvgPop;
+console.log(compareAvgPop);
+
+if (population > 33) {
+    console.log(`${country}'s population is above average`);
+} else {
+    console.log(
+        `${country}'s population is ${33 - population} million
+    below average`
+    );
+};
+*/
