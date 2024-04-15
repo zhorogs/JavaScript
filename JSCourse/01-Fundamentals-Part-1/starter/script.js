@@ -282,3 +282,15 @@ console.log(n);
 //should be 10
 */
 
+/* TRUTHY AND FALSEY VALUES */
+/* 5 falsy values
+1. 0 - zero
+2. '' - empty string
+3. undefined
+4. null
+5. NaN
+*/
+//not false by default, but when used as booleans will be fals
+// everything else is true
+
+console.log(Boolean(0))
