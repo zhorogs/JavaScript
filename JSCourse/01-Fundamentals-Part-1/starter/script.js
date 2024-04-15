@@ -250,6 +250,32 @@ console.log(Number(inputYear), inputYear);
 console.log(Number(inputYear) + 18);
 //if we have a string and add something to a string,it will add/concactenate to the string
 
+console.log(Number('Zhoro'));
+//NaN, invalid number
+console.log(typeof NaN);
 
+//convert numbers to strings
+console.log(String(23), 23);
 
+//JS can convert to a string,number and boolean, but we cannot convert to undefined or to NULL;
 
+// type coercion;
+
+//whenever a operator is dealing with 2 values, converts one of the values to the other value;
+
+console.log('I am ' + 23 + ' years old.');
+//string, a number, another string
+//when there is a operation between a number and a strig (when +), the number will be converted to a string
+
+console.log('23' - '10' - 3);
+//the - operator triggers the opposite coercio, strings are converted to numbers and not the other way around
+
+console.log('23' * '2');
+//goes to numbers, same goes for divisio
+console.log('23' / '2');
+
+//gues the output
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
+//should be 10
