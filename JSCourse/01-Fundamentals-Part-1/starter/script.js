@@ -212,7 +212,7 @@ console.log('String with \n\
 multiple \n\
 lines');
 
-//vs 
+//vs
 
 console.log(`String
 with multiple
@@ -243,6 +243,7 @@ console.log(century) */
 
 //type conversion
 
+/*
 const inputYear = '1991';
 console.log(Number(inputYear), inputYear);
 //convert to a number
@@ -279,3 +280,5 @@ let n = '1' + 1;
 n = n - 1;
 console.log(n);
 //should be 10
+*/
+
