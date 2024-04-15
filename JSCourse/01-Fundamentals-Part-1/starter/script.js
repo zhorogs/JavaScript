@@ -293,14 +293,17 @@ console.log(n);
 //not false by default, but when used as booleans will be fals
 // everything else is true
 
+/*
 console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean('Zhoro'));
 console.log(Boolean({}));
 console.log(Boolean(''));
+*/
 
 //the conversion to boolean is implicit, not explicit, is always type coercion that js does behind the scenes
 
+/*
 const money = 0;
 if (money) { //vs money = 100
     console.log('dont spend it all')
@@ -316,3 +319,4 @@ if (height) {
 } else {
     console.log('height is undefined')
 };
+*/
