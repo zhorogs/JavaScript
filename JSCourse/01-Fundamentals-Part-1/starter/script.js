@@ -238,5 +238,18 @@ if (birthYear <= 2000) {
 
 console.log(century) */
 
+/* TYPE CONVERSION AND TYPE COERCION */
+// when js converts types behind the scenes for us
+
+//type conversion
+
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+//convert to a number
+//the original values is not converted, still a strin
+console.log(Number(inputYear) + 18);
+//if we have a string and add something to a string,it will add/concactenate to the string
+
+
 
 
