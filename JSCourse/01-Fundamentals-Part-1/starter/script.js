@@ -269,10 +269,10 @@ console.log('I am ' + 23 + ' years old.');
 //when there is a operation between a number and a strig (when +), the number will be converted to a string
 
 console.log('23' - '10' - 3);
-//the - operator triggers the opposite coercio, strings are converted to numbers and not the other way around
+//the - operator triggers the opposite coercion, strings are converted to numbers and not the other way around
 
 console.log('23' * '2');
-//goes to numbers, same goes for divisio
+//goes to numbers, same goes for division
 console.log('23' / '2');
 
 //gues the output
