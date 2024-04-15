@@ -293,4 +293,26 @@ console.log(n);
 //not false by default, but when used as booleans will be fals
 // everything else is true
 
-console.log(Boolean(0))
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Zhoro'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+//the conversion to boolean is implicit, not explicit, is always type coercion that js does behind the scenes
+
+const money = 0;
+if (money) { //vs money = 100
+    console.log('dont spend it all')
+} else {
+    console.log('you should get a job')
+};
+
+//another use case is to check if a variable is defined or not
+
+let height; //didnt assigna a value, undefiend is falsy, 0 gives undefined as well, vs height = 123;
+if (height) {
+    console.log('height is defined')
+} else {
+    console.log('height is undefined')
+};
