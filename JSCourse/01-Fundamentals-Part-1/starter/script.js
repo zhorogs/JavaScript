@@ -324,6 +324,8 @@ if (height) {
 // EQUALITY OPERATORS == AND ===;
 
 //strict equality operator, does not perform type coercion, return true only both values are exactly the same;
+
+/*
 const age = '18';
 if (age === 18) console.log('You just became an adult. (strict)');
 
@@ -351,4 +353,6 @@ if (favNumber === 23) {
 if (favNumber !== 23) console.log('why not 23');
 
 //alwayse use strict version
+*/
+
 
