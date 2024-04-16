@@ -320,3 +320,32 @@ if (height) {
     console.log('height is undefined')
 };
 */
+
+// EQUALITY OPERATORS == AND ===;
+
+//strict equality operator, does not perform type coercion, return true only both values are exactly the same;
+const age = '18';
+if (age === 18) console.log('You just became an adult. (strict)');
+
+//loose equality operator, does type coercion
+//'18' == 18, '18' converted to a number;
+
+if (age == 18) console.log('You just became an adult.(loose)');
+
+const favNumber = Number(prompt('What is your favourite number?'));
+console.log(favNumber);
+console.log(typeof favNumber);
+
+if (favNumber === 23) {
+    console.log('cool, 23 is an amazing number');
+} else if (favNumber === 7) {
+    console.log('cool, 7 is also a cool number')
+} else if (favNumber === 8) {
+    console.log(`8 is a cool number`)
+} else {
+    console.log(`cool, your number ${favNumber} is also a cool number`);
+};
+
+//not equal operator, 'different operator', != (loose), !== (strict);
+
+if (favNumber !== 23) console.log('why not 23');
