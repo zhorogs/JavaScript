@@ -355,4 +355,17 @@ if (favNumber !== 23) console.log('why not 23');
 //alwayse use strict version
 */
 
+//* BOOLEAN LOGIC, AND, OR & NOT OPERATORS
+
+/*
+1. AND OPERATOR, will be true only when all values/variables are true
+
+2. OR OPERATOR, will be true if we have multiple variable, enough for 1 of them to be true for the whole operation to be true
+
+3. NOT OPERATOR, inverts true/false value, acts on only 1 boolean value
+
+IF 'A' is true, will become FALSE, If 'A' is FALSE, then NOT 'A' will become TRUE.
+
+The NOT OPERATOR has precedence first, so they are calculated/inverted first and then they are combined/compared. 
+*/
 
