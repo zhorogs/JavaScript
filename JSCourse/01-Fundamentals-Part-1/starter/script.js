@@ -349,3 +349,6 @@ if (favNumber === 23) {
 //not equal operator, 'different operator', != (loose), !== (strict);
 
 if (favNumber !== 23) console.log('why not 23');
+
+//alwayse use strict version
+
