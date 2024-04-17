@@ -373,4 +373,23 @@ const hasDriversLience = true; //A
 const hasGoodVision = true; //B
 
 console.log(hasDriversLience && hasGoodVision);
+console.log(hasDriversLience || hasGoodVision);
+console.log(!hasDriversLience);
+
+// if (hasDriversLience && hasGoodVision) {
+//     console.log(`Sarah is able to drive`)
+// } else {
+//     console.log(`Someone else should drive`)
+// };
+
+const isTired = false; //C
+
+console.log(hasDriversLience || hasGoodVision || isTired);
+
+if (hasDriversLience && hasGoodVision && !isTired) {
+    console.log(`Sarah is able to drive`)
+} else {
+    console.log(`Someone else should drive`)
+};
+
 
