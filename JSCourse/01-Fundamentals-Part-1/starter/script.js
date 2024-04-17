@@ -369,3 +369,8 @@ IF 'A' is true, will become FALSE, If 'A' is FALSE, then NOT 'A' will become TRU
 The NOT OPERATOR has precedence first, so they are calculated/inverted first and then they are combined/compared. 
 */
 
+const hasDriversLience = true; //A
+const hasGoodVision = true; //B
+
+console.log(hasDriversLience && hasGoodVision);
+
