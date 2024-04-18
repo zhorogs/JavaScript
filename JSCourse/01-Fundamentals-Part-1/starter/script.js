@@ -452,5 +452,5 @@ if (day === 'monday') {
 } else if (day === 'saturday' || day === 'sunday') {
     console.log(`relax, then work`)
 } else {
-
+    console.log(`not a valid day`)
 }
