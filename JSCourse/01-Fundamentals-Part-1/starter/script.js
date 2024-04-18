@@ -394,6 +394,8 @@ if (hasDriversLience && hasGoodVision && !isTired) {
 
 */
 
+/* SWITCH */
+
 const day = 'friday';
 
 switch (day) {
@@ -435,4 +437,20 @@ switch (day) {
     default: {
         console.log(`not a valid day`)
     }
-}   
+}
+
+//switching does strict comparisson
+
+if (day === 'monday') {
+    console.log(`work, then study`)
+} else if (day === 'tuesday') {
+    console.log(`work, then study`)
+} else if (day === 'wednesday' || day === 'thursday') {
+    console.log(`work, then study`)
+} else if (day === 'friday') {
+    console.log(`work, then study`)
+} else if (day === 'saturday' || day === 'sunday') {
+    console.log(`relax, then work`)
+} else {
+
+}
