@@ -394,4 +394,45 @@ if (hasDriversLience && hasGoodVision && !isTired) {
 
 */
 
+const day = 'friday';
 
+switch (day) {
+    case 'monday': { //day === 'monday'
+        console.log(`it is monday, work`)
+        console.log(`learn after work`)
+        break;
+    }
+    case 'tuesday': {
+        console.log(`it is tuesday, work`)
+        console.log(`learn after work`)
+        break;
+    }
+    case 'wednesday': {
+        console.log(`it is wednesday, work`)
+        console.log(`learn after work`)
+        break;
+    }
+    case 'thursday': {
+        console.log(`it is thursday, work`)
+        console.log(`learn after work`)
+        break;
+    }
+    case 'friday': {
+        console.log(`it is friday, work`)
+        console.log(`learn after work`)
+        break;
+    }
+    case 'saturday': {
+        console.log(`relax`)
+        console.log(`study after relax`)
+        break;
+    }
+    case 'sunday': {
+        console.log(`relax`)
+        console.log(`study after relax`)
+        break;
+    }
+    default: {
+        console.log(`not a valid day`)
+    }
+}   
