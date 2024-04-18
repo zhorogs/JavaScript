@@ -396,6 +396,7 @@ if (hasDriversLience && hasGoodVision && !isTired) {
 
 /* SWITCH */
 
+/*
 const day = 'friday';
 
 switch (day) {
@@ -453,4 +454,4 @@ if (day === 'monday') {
     console.log(`relax, then work`)
 } else {
     console.log(`not a valid day`)
-}
+} */
