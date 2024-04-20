@@ -223,6 +223,7 @@ arabic: '5th most spoken language';
 for all other simply log 'Great language too :D'.
 */
 
+/*
 switch (language) {
     case 'chinese':
     case 'mandarin':
@@ -243,6 +244,7 @@ switch (language) {
     default:
         console.log('Great language too :D');
 }
+*/
 
 
 
