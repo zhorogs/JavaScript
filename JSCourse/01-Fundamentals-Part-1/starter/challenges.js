@@ -1,4 +1,4 @@
-//FIRST CODING CHALLENGE 
+//FIRST CODING CHALLENGE
 /* CHALLENGE #1
 Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / (height * height) (mass in kg and height in meters).
 
@@ -18,7 +18,7 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 */
 
 //BMI = mass / (height * height);
-
+/*
 let massMark = 78;
 let heightMark = 1.69;
 
@@ -33,7 +33,7 @@ console.log(BMIJohn);
 
 let markHigherBMI = BMIMark > BMIJohn
 console.log(markHigherBMI);
-
+*/
 //SECOND CODING CHALLENGE
 /* CHALLENGE #2
 Use the BMI example from Challenge #1, and the code you already wrote, and improve it:
@@ -47,10 +47,11 @@ Use the BMI example from Challenge #1, and the code you already wrote, and impro
 Example: "Mark's BMI (28.3) is higher than John's (23.9)!" or "John's BMI (29.1) is higher than Mark's (27)!".
 
 Note: Don't round the BMI values. Leave them as they are. */
-
+/*
 if (BMIMark > BMIJohn) {
     console.log(`Mark's BMI (${Math.floor(BMIMark)}) is higher than John's (${Math.floor(BMIJohn)})!`)
 } else {
     console.log(`John's BMI (${Math.floor(BMIJohn)}) is higher thank Mark's (${Math.floor(BMIMark)})!`)
 };
+*/
 
