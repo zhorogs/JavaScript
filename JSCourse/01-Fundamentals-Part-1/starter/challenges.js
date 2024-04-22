@@ -88,13 +88,15 @@ Test data:
 
 let scoreDolphinsAvg = (96 + 108 + 89) / 3;
 let scoreKoalasAvg = (88 + 91 + 110) / 3;
-let score;
+const minScore = 100;
 
-if (scoreDolphinsAvg > scoreKoalasAvg) {
+if (scoreDolphinsAvg > minScore && scoreDolphinsAvg > scoreKoalasAvg) {
     console.log(`Dolphins are the winners!`)
-} else if (scoreKoalasAvg > scoreDolphinsAvg) {
+} else if (scoreKoalasAvg > minScore && scoreKoalasAvg > scoreDolphinsAvg) {
     console.log(`Koalas are the winners!`)
+} else if (scoreDolphinsAvg >= minScore && scoreKoalasAvg >= minScore && scoreDolphinsAvg === scoreKoalasAvg) {
+    console.log(`Its a draw!`)
 } else {
-    console.log(`Its a draw!`);
+    console.log(`No team wins the trophy!`);
 }
 
