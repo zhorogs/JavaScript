@@ -86,3 +86,15 @@ Test data:
 § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 */
 
+let scoreDolphinsAvg = (96 + 108 + 89) / 3;
+let scoreKoalasAvg = (88 + 91 + 110) / 3;
+let score;
+
+if (scoreDolphinsAvg > scoreKoalasAvg) {
+    console.log(`Dolphins are the winners!`)
+} else if (scoreKoalasAvg > scoreDolphinsAvg) {
+    console.log(`Koalas are the winners!`)
+} else {
+    console.log(`Its a draw!`);
+}
+
