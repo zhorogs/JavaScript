@@ -86,8 +86,8 @@ Test data:
 § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 */
 
-let scoreDolphinsAvg = (96 + 108 + 89) / 3;
-let scoreKoalasAvg = (88 + 91 + 110) / 3;
+let scoreDolphinsAvg = (97 + 112 + 101) / 3;
+let scoreKoalasAvg = (109 + 95 + 106) / 3;
 const minScore = 100;
 
 if (scoreDolphinsAvg > minScore && scoreDolphinsAvg > scoreKoalasAvg) {
@@ -100,3 +100,8 @@ if (scoreDolphinsAvg > minScore && scoreDolphinsAvg > scoreKoalasAvg) {
     console.log(`No team wins the trophy!`);
 }
 
+//test data 1, no team wins the trophy
+
+//test data 2, koalas are the winners
+
+//test data 3, its a draw
