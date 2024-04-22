@@ -90,9 +90,9 @@ let scoreDolphinsAvg = (97 + 112 + 101) / 3;
 let scoreKoalasAvg = (109 + 95 + 106) / 3;
 const minScore = 100;
 
-if (scoreDolphinsAvg > minScore && scoreDolphinsAvg > scoreKoalasAvg) {
+if (scoreDolphinsAvg >= minScore && scoreDolphinsAvg > scoreKoalasAvg) {
     console.log(`Dolphins are the winners!`)
-} else if (scoreKoalasAvg > minScore && scoreKoalasAvg > scoreDolphinsAvg) {
+} else if (scoreKoalasAvg >= minScore && scoreKoalasAvg > scoreDolphinsAvg) {
     console.log(`Koalas are the winners!`)
 } else if (scoreDolphinsAvg >= minScore && scoreKoalasAvg >= minScore && scoreDolphinsAvg === scoreKoalasAvg) {
     console.log(`Its a draw!`)
