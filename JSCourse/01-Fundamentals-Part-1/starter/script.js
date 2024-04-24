@@ -366,7 +366,7 @@ if (favNumber !== 23) console.log('why not 23');
 
 IF 'A' is true, will become FALSE, If 'A' is FALSE, then NOT 'A' will become TRUE.
 
-The NOT OPERATOR has precedence first, so they are calculated/inverted first and then they are combined/compared. 
+The NOT OPERATOR has precedence first, so they are calculated/inverted first and then they are combined/compared.
 */
 
 /* const hasDriversLience = true; //A
@@ -455,3 +455,16 @@ if (day === 'monday') {
 } else {
     console.log(`not a valid day`)
 } */
+
+//STATEMENTS AND EXPRESSIONS
+
+3 + 4
+1991
+true && false && !false
+//all expressions, will produce boolean value
+
+if (23 > 10) {
+    const str = '23 is bigger'
+};
+
+//statement, doesnt produce value, the str is an expression tho
