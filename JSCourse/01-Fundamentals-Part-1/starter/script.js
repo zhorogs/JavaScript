@@ -458,6 +458,7 @@ if (day === 'monday') {
 
 //STATEMENTS AND EXPRESSIONS
 
+/* 
 3 + 4
 1991
 true && false && !false
@@ -468,3 +469,4 @@ if (23 > 10) {
 };
 
 //statement, doesnt produce value, the str is an expression tho
+*/
