@@ -473,3 +473,24 @@ if (23 > 10) {
 
 /* TERANARY OPERATOR */
 
+const age = 23;
+age >= 18 ? console.log(`i like to drink wine`) : console.log(`i like to drink water`);
+
+/* an operator is an expression, it produces a value, we can assign a value/variable to */
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+let drink2;
+
+if (age >= 18) {
+    drink2 = 'wine'
+} else {
+    drink2 = 'water'
+}
+
+//need to defined drink2 outside of the if block, because if we define it inside, it is not available outside of the block;
+
+console.log(`drink2`);
+
+
