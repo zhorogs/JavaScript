@@ -470,3 +470,6 @@ if (23 > 10) {
 
 //statement, doesnt produce value, the str is an expression tho
 */
+
+/* TERANARY OPERATOR */
+
