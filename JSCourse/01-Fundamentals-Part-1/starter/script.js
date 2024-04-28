@@ -473,11 +473,13 @@ if (23 > 10) {
 
 /* TERANARY OPERATOR */
 
+/*
 const age = 23;
 age >= 18 ? console.log(`i like to drink wine`) : console.log(`i like to drink water`);
 
-/* an operator is an expression, it produces a value, we can assign a value/variable to */
+ an operator is an expression, it produces a value, we can assign a value/variable to */
 
+/* 
 const drink = age >= 18 ? 'wine' : 'water';
 console.log(drink);
 
@@ -495,9 +497,10 @@ console.log(`drink2`);
 
 //since ternary operatr is an expression, so we can use it in a template literal;
 
-console.log(`i like to drink ${age >= 18 ? 'wine' : 'water'}`);
+console.log(`i like to drink ${age >= 18 ? 'wine' : 'water'}`); 
 
 //expression is something that produce a value, and we can put that value in a placeholder in a tempalte literal;
 
 //ternary operator is not replacement of if/else statements, it is perfect to take quick decisions
 
+*/
