@@ -125,7 +125,7 @@ if (population > 33) {
 
 //ASSIGNMENT N6
 /*
-Type Conversion and Coercion﻿
+Type Conversion and Coercion
 Predict the result of these 5 operations without executing them:
 
 console.log('9' - '5'); // -> ?
@@ -138,8 +138,8 @@ console.log(5 + 6 + '4' + 9 - 4 - 2); // -> ?
 /*
 console.log('9' - '5'); // -> 4
 console.log('19' - '13' + '17'); // -> 617, string
-console.log('19' - '13' + 17); // ->  23 
-console.log('123' < 57); // -> false 
+console.log('19' - '13' + 17); // ->  23
+console.log('123' < 57); // -> false
 console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 1143
 */
 
@@ -186,7 +186,7 @@ if (numNeighbours2 === 1) {
 
 /*ASSIGNMENT N8 */
 /*
-Logical Operators﻿
+Logical Operators
 Comment out the previous code so the prompt doesn't get in the way.
 
 Let's say Sarah is looking for a new country to live in. She wants to live in a country that speaks English, has less than 50 million people and is not an island.
@@ -207,7 +207,7 @@ if (language === 'english' && population < 50 && !isIsland) {
 
 /* ASSIGNMENT N9 */
 /*
-The switch Statement﻿
+The switch Statement
 Use a switch statement to log the following string for the given language:
 
 chinese or mandarin: 'MOST number of native speakers!';
@@ -254,7 +254,8 @@ If your country's population is greater than 33 million, use the ternary operato
 After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original.
 */
 
-population > 33 ? console.log(`${country}'s population is above average`) : console.log(`${country}'s population is below average`);
+
+//population > 33 ? console.log(`${country}'s population is above average`) : console.log(`${country}'s population is below average`);
 
 
 
