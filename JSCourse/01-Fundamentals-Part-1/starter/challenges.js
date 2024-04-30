@@ -125,11 +125,13 @@ Hints:
 § Value X is between 50 and 300, if it's >= 50 && <= 300
  */
 
+/*
 const bill = 275;
 let tip;
 
 tip = bill >= 50 && bill <= 300 ? tip = bill * (15 / 100) : tip = bill * (20 / 100)
 
-const totalValue = bill + tip
+const totalValue = bill + tip;
 
-console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${totalValue}`)
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${totalValue}`);
+*/
