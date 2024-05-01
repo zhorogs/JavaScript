@@ -20,6 +20,7 @@ if (hasDriversLicense) console.log(`i can drive`);
 
 //what are functions? a piece of code that we can re-use over and over again in our code, its like a variable, but for a whole block/chunks of code
 
+/* 
 function logger() {
     console.log(`my name is zhoro`);
 }
@@ -56,3 +57,4 @@ console.log(appleOrangeJuice);
 //functions allow us to write more maintanable code;
 
 //DRY principle;
+*/
