@@ -4,11 +4,13 @@
 
 //strict mode forbids us to do certain things and will create visible errors for us in certain situations;
 
+/*
 let hasDriversLicense = false;
 const passTest = true;
 
 if (passTest) hasDriversLicense = true;
 if (hasDriversLicense) console.log(`i can drive`);
+*/
 
 //strict mode introduces a short list of variable names that are reserved, will console log if it happens;
 
@@ -16,3 +18,14 @@ if (hasDriversLicense) console.log(`i can drive`);
 
 /* FUNCTIONS */
 
+//what are functions? a piece of code that we can re-use over and over again in our code, its like a variable, but for a whole block/chunks of code
+
+function logger() {
+    console.log(`my name is zhoro`);
+}
+
+//whatever is between the curly braces is the function code and this will be executed everytime we call the functions
+
+logger();
+logger();
+logger();
