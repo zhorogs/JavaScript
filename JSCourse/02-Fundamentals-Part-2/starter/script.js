@@ -42,6 +42,13 @@ function fruitProcessor(apples, oranges) {
 
 //parameters are like variables specific only to this functions, input data of this functions, arguments
 
-const appleJuice = fruitProcessor(2, 3);
+const appleJuice = fruitProcessor(5, 0); //capturing the values
 console.log(appleJuice);
+console.log(fruitProcessor(5, 2)) // did not capture the values;
+
+//now we can re-use the functions with different values;
+
+const appleOrangeJuice = fruitProcessor(2, 4);
+console.log(appleOrangeJuice);
+
 
