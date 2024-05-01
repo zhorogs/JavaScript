@@ -51,4 +51,8 @@ console.log(fruitProcessor(5, 2)) // did not capture the values;
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
 
+//not all functions need to return something and not all functions doesnt need to capture/have parameters;
 
+//functions allow us to write more maintanable code;
+
+//DRY principle;
