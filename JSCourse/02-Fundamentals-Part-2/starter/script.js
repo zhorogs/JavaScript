@@ -13,3 +13,6 @@ if (hasDriversLicense) console.log(`i can drive`);
 //strict mode introduces a short list of variable names that are reserved, will console log if it happens;
 
 //const if = 23;
+
+/* FUNCTIONS */
+
