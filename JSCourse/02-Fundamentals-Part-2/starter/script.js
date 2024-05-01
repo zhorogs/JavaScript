@@ -29,3 +29,19 @@ function logger() {
 logger();
 logger();
 logger();
+
+//invoking the functions, calling the functions, running the functions;
+
+//we also pass data into a function, a function can also return data back as well;
+
+function fruitProcessor(apples, oranges) {
+    console.log(apples, oranges)
+    const juice = `Juice with ${apples} apples and ${oranges} oranges`
+    return juice;
+}
+
+//parameters are like variables specific only to this functions, input data of this functions, arguments
+
+const appleJuice = fruitProcessor(2, 3);
+console.log(appleJuice);
+
