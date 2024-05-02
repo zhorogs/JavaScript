@@ -58,3 +58,5 @@ console.log(appleOrangeJuice);
 
 //DRY principle;
 */
+
+/* FUNCTION DECLARATION VS EXPRESSION */
