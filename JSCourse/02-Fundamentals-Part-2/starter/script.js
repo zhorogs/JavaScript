@@ -60,3 +60,26 @@ console.log(appleOrangeJuice);
 */
 
 /* FUNCTION DECLARATION VS EXPRESSION */
+
+//function declaration;
+function calcAge1(birthYear) {
+    return 2024 - birthYear;
+};
+
+const age1 = calcAge1(1991);
+console.log(age1);
+
+//function expression;
+
+const calcAge2 = function (birthYear) {
+    return 2024 - birthYear
+};
+
+//function withot a name, anonymous functions, an expression produces a value and use that value and store it into calcAge2;
+//to call this function we do it in the same way;
+
+const age2 = calcAge2(1991);
+console.log(age2);
+
+//expressions produce values;
+
