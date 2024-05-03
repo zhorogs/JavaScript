@@ -60,7 +60,7 @@ console.log(appleOrangeJuice);
 */
 
 /* FUNCTION DECLARATION VS EXPRESSION */
-
+/*
 //function declaration;
 function calcAge1(birthYear) {
     return 2024 - birthYear;
@@ -90,3 +90,4 @@ console.log(age2);
 //dependant on HOISTING;
 
 //which type of functin shuold be used? often times is matter of personal preference?;
+*/
