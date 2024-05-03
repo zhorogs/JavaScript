@@ -83,3 +83,10 @@ console.log(age2);
 
 //expressions produce values;
 
+//functions are actually just values, as a number or str, its not a type, but its also a value, if it is a value we can store it in a variable;
+
+//what is the difference? we can actually call declarations before defined in the code;
+
+//dependant on HOISTING;
+
+//which type of functin shuold be used? often times is matter of personal preference?;
