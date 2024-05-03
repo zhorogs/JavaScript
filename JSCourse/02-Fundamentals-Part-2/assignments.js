@@ -29,3 +29,18 @@ Call percentageOfWorld1 for 3 populations of countries of your choice, store the
 Create a function expression which does the exact same thing, called percentageOfWolrd2, and also call it with 3 country populations (can be the same populations).
 */
 
+function powdeclaration(populationn) {
+    return populationn / 7900;
+};
+
+const Bulgaria = powdeclaration(8000000);
+const Turkey = powdeclaration(85000000);
+const Greece = powdeclaration(10000000)
+
+console.log(Bulgaria);
+console.log(Turkey);
+console.log(Greece);
+
+const powexpression = function (population) {
+    return population / 7900;
+};
