@@ -94,3 +94,23 @@ console.log(age2);
 
 /* ARROW FUCTIONS */
 
+const calcAge3 = birthYear => 2024 - birthYear;
+//function expression, storig it in a variable;
+//return happens implicitly;
+
+const age3 = calcAge3(1991);
+console.log(age3);
+
+const yearsUntilRetirement = (birthYear, firstName) => {
+    const age = 2024 - birthYear;
+    const retirement = 65 - age;
+    //return retiremennt;
+    return `${firstName} retires in ${retirement} years`
+};
+
+//we can only omit the return if we have one liner functios;
+
+console.log(yearsUntilRetirement(1991, 'zhoro'));
+console.log(yearsUntilRetirement(1991, 'dudu'));
+
+//what type of functions should i use? its complicated since there is a fundamental difference between arrow functions and function declaration and expression, the arrow function doesnt get the "this" keyword. ;
