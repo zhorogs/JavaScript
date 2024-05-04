@@ -91,3 +91,6 @@ console.log(age2);
 
 //which type of functin shuold be used? often times is matter of personal preference?;
 */
+
+/* ARROW FUCTIONS */
+
