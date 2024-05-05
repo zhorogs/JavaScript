@@ -115,5 +115,7 @@ console.log(yearsUntilRetirement(1991, 'zhoro'));
 console.log(yearsUntilRetirement(1991, 'dudu'));
 
 //what type of functions should i use? its complicated since there is a fundamental difference between arrow functions and function declaration and expression, the arrow function doesnt get the "this" keyword.;
-
 */
+
+/* FUNCTIONS CALLING OTHER FUNCTIONS */
+
