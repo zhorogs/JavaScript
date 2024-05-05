@@ -59,3 +59,6 @@ const percUSA3 = percentageOfWorld3(332);
 
 console.log(percPortugal3, percChina3, percUSA3);
 */
+
+//ASSIGNMENT N4;
+
