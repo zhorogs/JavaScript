@@ -70,6 +70,7 @@ To calculate the percentage, describePopulation calls the percentageOfWorld1 you
 Call describePopulation with data for 3 countries of your choice.
 */
 
+/* 
 function describePopulation(country, population) {
 
     const percentofPop = percentageOfWorld3(population);
@@ -88,4 +89,4 @@ const Greece = describePopulation('Greece', 10);
 console.log(Bulgaria);
 console.log(Turkey);
 console.log(Greece);
-
+*/
