@@ -119,6 +119,7 @@ console.log(yearsUntilRetirement(1991, 'dudu'));
 
 /* FUNCTIONS CALLING OTHER FUNCTIONS */
 
+/* 
 function cutFrootPieces(fruit) {
     return fruit * 4;
 }
@@ -130,3 +131,4 @@ function foodProcessor(apples, oranges) {
 };
 
 console.log(foodProcessor(2, 3));
+*/
