@@ -62,7 +62,7 @@ console.log(percPortugal3, percChina3, percUSA3);
 
 //ASSIGNMENT N4;
 
-/* 
+/*
 Create a function called describePopulation.Use the function type you like the most.This function takes in two arguments: country and population, and returns a strings like this: 'China has 1441 million people, which is about 18.2% of the world'.
 
 To calculate the percentage, describePopulation calls the percentageOfWorld1 you created earlier.
@@ -70,7 +70,7 @@ To calculate the percentage, describePopulation calls the percentageOfWorld1 you
 Call describePopulation with data for 3 countries of your choice.
 */
 
-/* 
+/*
 function describePopulation(country, population) {
 
     const percentofPop = percentageOfWorld3(population);
@@ -89,4 +89,14 @@ const Greece = describePopulation('Greece', 10);
 console.log(Bulgaria);
 console.log(Turkey);
 console.log(Greece);
+*/
+
+//ASSIGNMENT N5;
+
+/* 
+Create an array containing 4 population values of 4 countries of your choice.You may use the values you have been using previously.Store this array into a variable called populations.
+
+Log to the console whether the array has 4 elements or not(true or false).
+
+Create an array called percentages containing the percentages of the world population for these 4 population values.Use the function percentageOfWorld1 that you created earlier to compute the 4 percentage values.
 */
