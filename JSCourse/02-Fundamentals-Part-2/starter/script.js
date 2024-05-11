@@ -133,8 +133,9 @@ function foodProcessor(apples, oranges) {
 console.log(foodProcessor(2, 3));
 */
 
-/* ARRAYS */
+/* REVIEWING FUCNTIONS */
 
+/* 
 const calcAge = function (birthYear) {
     return 2024 - birthYear
 };
@@ -144,4 +145,4 @@ const yearsUntilRetirement = function (birthYear, firstName) {
     const retirement = 65 - age;
     return `${firstName} retires in ${retirement} years`
 };
-
+*/
