@@ -135,3 +135,13 @@ console.log(foodProcessor(2, 3));
 
 /* ARRAYS */
 
+const calcAge = function (birthYear) {
+    return 2024 - birthYear
+};
+
+const yearsUntilRetirement = function (birthYear, firstName) {
+    const age = 2024 - birthYear;
+    const retirement = 65 - age;
+    return `${firstName} retires in ${retirement} years`
+};
+
