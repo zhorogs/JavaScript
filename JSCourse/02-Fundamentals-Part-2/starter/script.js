@@ -132,3 +132,6 @@ function foodProcessor(apples, oranges) {
 
 console.log(foodProcessor(2, 3));
 */
+
+/* ARRAYS */
+
