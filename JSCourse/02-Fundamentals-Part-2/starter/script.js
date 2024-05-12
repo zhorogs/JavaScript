@@ -135,14 +135,25 @@ console.log(foodProcessor(2, 3));
 
 /* REVIEWING FUCNTIONS */
 
-/* 
+
 const calcAge = function (birthYear) {
     return 2024 - birthYear
 };
 
 const yearsUntilRetirement = function (birthYear, firstName) {
-    const age = 2024 - birthYear;
+    const age = calcAge(birthYear);
     const retirement = 65 - age;
-    return `${firstName} retires in ${retirement} years`
+
+    if (retirement > 0) {
+        return retirement
+    }
+    else {
+        return -1999;
+        //return immediately returns the funcion, no code after the return will be executed
+    }
+    //return `${firstName} retires in ${retirement} years`
 };
-*/
+
+yearsUntilRetirement(1991, "Zhoro");
+yearsUntilRetirement(1950, "Mike");
+//negative number, already retired
