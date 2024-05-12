@@ -145,9 +145,11 @@ const yearsUntilRetirement = function (birthYear, firstName) {
     const retirement = 65 - age;
 
     if (retirement > 0) {
+        console.log(`${firstName} has more ${retirement} years until retirement.`)
         return retirement
     }
     else {
+        console.log(`${firstName} has already retired.`)
         return -1999;
         //return immediately returns the funcion, no code after the return will be executed
     }
@@ -157,3 +159,27 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 yearsUntilRetirement(1991, "Zhoro");
 yearsUntilRetirement(1950, "Mike");
 //negative number, already retired
+
+/* Function types
+    1. Functio declaration;
+
+    function calcAge(birthYear) {
+        return 2024 - birthYear;
+    };
+    Functions that can be used before its declared
+    2. Function expression;
+    const calcAge = function (birthYear) {
+        return 2024 - birthYear
+    };
+    Essentially a function VALUE stored in a variable;
+    3. Arrow funtion;
+    const calcAge = birthYear => 2024 - birthYear;
+    Great for a quick one-line functionns. Has no "this" keyword.
+
+    All of them can work with data, input data, transoform data and output data.
+
+    A functio needs a function name, parameters (placeholders to receive input values. Like local variables of a function.), function body (block of code that we want to reuse, process the function's input data), a return statement, to putput the value of the function, calling the function, using "()", since the function has parameters, we call the functions with Arguments: actual values of function parameters, to input the data. 
+
+    const age = function
+    age = variable to save the returned value (function output)
+*/
