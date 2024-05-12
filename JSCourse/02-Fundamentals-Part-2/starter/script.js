@@ -135,7 +135,7 @@ console.log(foodProcessor(2, 3));
 
 /* REVIEWING FUCNTIONS */
 
-
+/* 
 const calcAge = function (birthYear) {
     return 2024 - birthYear
 };
@@ -159,6 +159,7 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 yearsUntilRetirement(1991, "Zhoro");
 yearsUntilRetirement(1950, "Mike");
 //negative number, already retired
+*/
 
 /* Function types
     1. Functio declaration;
