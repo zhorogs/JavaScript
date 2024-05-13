@@ -28,11 +28,15 @@ const calcAverage = (param1, param2, param3) => {
 
 //test data 1
 const scoreDolphins1 = calcAverage(44, 23, 71);
+//console.log(scoreDolphins1);
 const scoreKoalas1 = calcAverage(65, 54, 49);
+//console.log(scoreKoalas1);
 
 //test data 2
 const scoreDolphins2 = calcAverage(85, 54, 41);
+//console.log(scoreDolphins2);
 const scoreKoalas2 = calcAverage(23, 34, 27);
+//console.log(scoreKoalas2);
 
 const checkWinner = (avgDolphins, avgKoalas) => {
     if (avgDolphins > avgKoalas) {
@@ -44,3 +48,7 @@ const checkWinner = (avgDolphins, avgKoalas) => {
     }
 };
 
+checkWinner(scoreDolphins1, scoreKoalas1);
+//koalas win according to console
+checkWinner(scoreDolphins2, scoreKoalas2);
+//dolphins win according to console
