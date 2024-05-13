@@ -20,3 +20,16 @@ TEST DATA 1: Dolphins scored 44, 23, and 71. Koalas scored 65, 54, and 49.
 
 TEST DATA 2: Dolphins scored 85, 54, and 41. Koalas scored 23, 34, and 27.
 */
+
+const calcAverage = (param1, param2, param3) => {
+    return (param1 + param2 + param3) / 3
+}
+
+//test data 1
+const scoreDolphins1 = calcAverage(44, 23, 71);
+const scoreKoalas1 = calcAverage(65, 54, 49);
+
+//test data 2
+const scoreDolphins2 = calcAverage(85, 54, 41);
+const scoreKoalas2 = calcAverage(23, 34, 27);
+
