@@ -39,9 +39,9 @@ const scoreKoalas2 = calcAverage(23, 34, 27);
 //console.log(scoreKoalas2);
 
 const checkWinner = (avgDolphins, avgKoalas) => {
-    if (avgDolphins > avgKoalas) {
+    if (avgDolphins > avgKoalas * 2) {
         console.log(`Dolphins win (${avgDolphins} vs ${avgKoalas})`)
-    } else if (avgKoalas > avgDolphins) {
+    } else if (avgKoalas > avgDolphins * 2) {
         console.log(`Koalas win (${avgKoalas} vs ${avgDolphins})`)
     } else {
         console.log(`No team wins`)
@@ -49,6 +49,8 @@ const checkWinner = (avgDolphins, avgKoalas) => {
 };
 
 checkWinner(scoreDolphins1, scoreKoalas1);
-//koalas win according to console
+//koalas win according to console;
 checkWinner(scoreDolphins2, scoreKoalas2);
-//dolphins win according to console
+//dolphins win according to console;
+
+//need to check if a team wins if it has double the points of the other team;
