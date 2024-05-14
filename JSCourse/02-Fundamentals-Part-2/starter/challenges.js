@@ -21,6 +21,7 @@ TEST DATA 1: Dolphins scored 44, 23, and 71. Koalas scored 65, 54, and 49.
 TEST DATA 2: Dolphins scored 85, 54, and 41. Koalas scored 23, 34, and 27.
 */
 
+/* 
 //calc average score
 const calcAverage = (param1, param2, param3) => {
     return (param1 + param2 + param3) / 3
@@ -54,3 +55,5 @@ checkWinner(scoreDolphins2, scoreKoalas2);
 //dolphins win according to console;
 
 //need to check if a team wins if it has double the points of the other team;
+
+*/
