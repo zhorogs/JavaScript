@@ -184,3 +184,5 @@ yearsUntilRetirement(1950, "Mike");
     const age = function
     age = variable to save the returned value (function output)
 */
+
+/* ARRAYS */
