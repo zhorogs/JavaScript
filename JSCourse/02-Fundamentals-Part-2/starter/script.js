@@ -196,3 +196,34 @@ const friend3 = 'Peter';
 //two most important data structures, atleast in js, are arrays and objects;
 
 const friends = ['Michael', 'Steven', 'Peter'];
+//literal syntax;
+console.log(friends);
+
+const years = new Array(1991, 1992, 1993, 2024);
+
+//array can hold as many values as we want and values of any type that we'd like;
+
+//how to get elements out of the array
+
+console.log(friends[0]);
+
+//arrays are 0 based, first element is positioned 0, not 1
+
+console.log(friends[2]);
+
+//get the actual numbers of elements in the array;
+
+console.log(friends.length);
+
+//we can use this to automatically the last element of any array;
+
+console.log(friends[friends.length - 1]);
+
+//inside the brackets we can put any expression;
+//expresion is something that produces a value;
+//important to know what is expression and what is statement;
+
+//add/remove elements of/to the array;
+
+friends[2] = 'Jay';
+console.log(friends);
