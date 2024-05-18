@@ -186,3 +186,13 @@ yearsUntilRetirement(1950, "Mike");
 */
 
 /* ARRAYS */
+
+const friend1 = 'Michael';
+const friedn2 = 'Steven';
+const friend3 = 'Peter';
+
+//bundle all of these values together to a container, like a DS, an array;
+
+//two most important data structures, atleast in js, are arrays and objects;
+
+const friends = ['Michael', 'Steven', 'Peter'];
