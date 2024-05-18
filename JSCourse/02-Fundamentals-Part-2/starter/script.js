@@ -199,7 +199,7 @@ const friends = ['Michael', 'Steven', 'Peter'];
 //literal syntax;
 console.log(friends);
 
-const years = new Array(1991, 1992, 1993, 2024);
+const y = new Array(1991, 1992, 1993, 2024);
 
 //array can hold as many values as we want and values of any type that we'd like;
 
@@ -227,3 +227,27 @@ console.log(friends[friends.length - 1]);
 
 friends[2] = 'Jay';
 console.log(friends);
+
+//variables declared with const cannot be changed, but we can change elements within an array declared with const, only primitive values are immutable;
+//we cannot replace the entire array;
+
+//friends = ['Bob', 'Alice'];
+//assignment to constant variable;
+
+//array can hold different types of values at the same time;
+
+const firstName = 'zhoro'
+const zhoro = [firstName, 'slavchev', 2024 - 1991, friends]
+
+//we can put arrays inside of arrays;
+console.log(zhoro);
+
+// excersise
+const calcAge = function (birthYear) {
+    return 2024 - birthYear;
+}
+const years = [1990, 1967, 2002, 2010, 2018];
+
+//cannot do
+//calcAge(years);
+//returns NaN
