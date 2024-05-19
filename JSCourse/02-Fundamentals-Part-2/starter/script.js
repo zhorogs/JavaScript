@@ -187,6 +187,7 @@ yearsUntilRetirement(1950, "Mike");
 
 /* ARRAYS */
 
+/* 
 const friend1 = 'Michael';
 const friedn2 = 'Steven';
 const friend3 = 'Peter';
@@ -260,3 +261,4 @@ console.log(age1, age2, age3);
 const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])]
 // we can place function calls into arrays, because the produce a value, an expression;
 console.log(ages);
+*/
