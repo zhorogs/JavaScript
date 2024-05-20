@@ -262,3 +262,6 @@ const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length -
 // we can place function calls into arrays, because the produce a value, an expression;
 console.log(ages);
 */
+
+/* BASIC ARRAY OPERATIOSN (METHODS) */
+
