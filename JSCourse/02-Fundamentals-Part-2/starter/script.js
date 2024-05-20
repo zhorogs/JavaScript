@@ -265,6 +265,7 @@ console.log(ages);
 
 /* BASIC ARRAY OPERATIOSN (METHODS) */
 
+/* 
 //add elements
 const friends = ['Zhoro', 'Dudu'];
 
@@ -304,4 +305,4 @@ console.log(friends.includes('John'));
 if (friends.includes('zozo')) {
     console.log(`yes`)
 } else console.log(`no`)
-
+*/
