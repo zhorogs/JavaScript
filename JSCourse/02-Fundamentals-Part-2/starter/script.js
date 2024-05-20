@@ -265,3 +265,43 @@ console.log(ages);
 
 /* BASIC ARRAY OPERATIOSN (METHODS) */
 
+//add elements
+const friends = ['Zhoro', 'Dudu'];
+
+const newLength = friends.push('zozo', 'dudu');
+
+//push is a method (a function)
+console.log(friends);
+console.log(newLength);
+
+friends.unshift('firstzozo');
+console.log(friends);
+
+//push and unshift also retur the length of the array;
+
+//remove elements
+friends.pop();
+const popped = friends.pop();
+console.log(friends);
+console.log(popped);
+//pop removes the last element of the array
+//pop returns the removed element
+
+friends.shift;
+//removes the first elemet of the array
+console.log(friends);
+
+//method that tells us at which position is the element in the array
+console.log(friends.indexOf('Dudu'));
+
+//ES6 method, "includes", returns true if the element is in the array and false if it is not;
+
+console.log(friends.includes('zozo'));
+console.log(friends.includes('John'));
+
+//we can use the includes method to write conditionals, one of the useful applications of this method;
+
+if (friends.includes('zozo')) {
+    console.log(`yes`)
+} else console.log(`no`)
+
