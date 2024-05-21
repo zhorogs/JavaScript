@@ -73,7 +73,6 @@ Create an array called tips containing the tip value for each bill, calculated f
 BONUS: Create an array totals containing the total values, so the bill + tip.
 
 TEST DATA: 125, 555, and 44.
-*/
 
 const calcTip = (bill) => {
     if (bill >= 50 && bill <= 300) {
@@ -86,3 +85,7 @@ const bills = [125, 555, 44]
 const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
 
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
+*/
+
+
+
