@@ -1,4 +1,4 @@
-/* 
+/*
 CHALLENGE #1
 Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new gymnastics discipline, which works differently.
 
@@ -21,7 +21,7 @@ TEST DATA 1: Dolphins scored 44, 23, and 71. Koalas scored 65, 54, and 49.
 TEST DATA 2: Dolphins scored 85, 54, and 41. Koalas scored 23, 34, and 27.
 */
 
-/* 
+/*
 //calc average score
 const calcAverage = (param1, param2, param3) => {
     return (param1 + param2 + param3) / 3
@@ -86,6 +86,8 @@ const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
 
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
 */
+
+//REVIEW CHALLENGE
 
 
 
