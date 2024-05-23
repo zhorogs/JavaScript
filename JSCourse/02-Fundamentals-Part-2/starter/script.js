@@ -20,7 +20,7 @@ if (hasDriversLicense) console.log(`i can drive`);
 
 //what are functions? a piece of code that we can re-use over and over again in our code, its like a variable, but for a whole block/chunks of code
 
-/* 
+/*
 function logger() {
     console.log(`my name is zhoro`);
 }
@@ -119,7 +119,7 @@ console.log(yearsUntilRetirement(1991, 'dudu'));
 
 /* FUNCTIONS CALLING OTHER FUNCTIONS */
 
-/* 
+/*
 function cutFrootPieces(fruit) {
     return fruit * 4;
 }
@@ -135,7 +135,7 @@ console.log(foodProcessor(2, 3));
 
 /* REVIEWING FUCNTIONS */
 
-/* 
+/*
 const calcAge = function (birthYear) {
     return 2024 - birthYear
 };
@@ -179,7 +179,7 @@ yearsUntilRetirement(1950, "Mike");
 
     All of them can work with data, input data, transoform data and output data.
 
-    A functio needs a function name, parameters (placeholders to receive input values. Like local variables of a function.), function body (block of code that we want to reuse, process the function's input data), a return statement, to putput the value of the function, calling the function, using "()", since the function has parameters, we call the functions with Arguments: actual values of function parameters, to input the data. 
+    A functio needs a function name, parameters (placeholders to receive input values. Like local variables of a function.), function body (block of code that we want to reuse, process the function's input data), a return statement, to putput the value of the function, calling the function, using "()", since the function has parameters, we call the functions with Arguments: actual values of function parameters, to input the data.
 
     const age = function
     age = variable to save the returned value (function output)
@@ -187,7 +187,7 @@ yearsUntilRetirement(1950, "Mike");
 
 /* ARRAYS */
 
-/* 
+/*
 const friend1 = 'Michael';
 const friedn2 = 'Steven';
 const friend3 = 'Peter';
@@ -265,7 +265,7 @@ console.log(ages);
 
 /* BASIC ARRAY OPERATIOSN (METHODS) */
 
-/* 
+/*
 //add elements
 const friends = ['Zhoro', 'Dudu'];
 
@@ -306,3 +306,7 @@ if (friends.includes('zozo')) {
     console.log(`yes`)
 } else console.log(`no`)
 */
+
+// OBJECTS //
+
+
