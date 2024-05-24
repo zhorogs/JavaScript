@@ -147,3 +147,5 @@ if (!neighbours.includes('Germany')) {
 neighbours[neighbours.indexOf('Sweden')] = 'Republic of Sweden;';
 console.log(neighbours);
 */
+
+/* Object assignment */
