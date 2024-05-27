@@ -148,7 +148,7 @@ neighbours[neighbours.indexOf('Sweden')] = 'Republic of Sweden;';
 console.log(neighbours);
 */
 
-/* OBJECT ASSIGNMET */
+/* ASSIGNMENT N7 */
 
 /* 
 Introduction to Objects﻿
@@ -165,3 +165,11 @@ const myCountry = {
 };
 */
 
+/* ASSIGNMENT N8 */
+
+/*
+Dot vs. Bracket Notation﻿
+Using the object from the previous assignment, log a string like this to the console: 'Finland has 6 million finnish-speaking people, 3 neighbouring countries and a capital called Helsinki'.
+
+Increase the country's population by two million using dot notation, and then decrease it by two million using bracket notation.
+*/
