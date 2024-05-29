@@ -119,7 +119,7 @@ console.log(percentages);
 //ASSIGNMENT N6;
 
 /*
-Basic Array Operations (Methods)﻿
+Basic Array Operations (Methods)
 Create an array containing all the neighbouring countries of a country of your choice. Choose a country which has at least 2 or 3 neighbours. Store the array into a variable called neighbours.
 
 At some point, a new country called 'Utopia' is created in the neighbourhood of your selected country, so add it to the end of the neighbours array.
@@ -131,7 +131,7 @@ If the neighbours array does not include the country 'Germany', log to the conso
 Change the name of one of your neighbouring countries. To do that, find the index of the country in the neighbours array, and then use that index to change the array at that index position. For example, you can search for 'Sweden' in the array, and then replace it with 'Republic of Sweden'.
 */
 
-/* 
+/*
 const neighbours = ['Norway', 'Sweden', 'Russia'];
 
 neighbours.push('Utopia');
@@ -150,12 +150,12 @@ console.log(neighbours);
 
 /* ASSIGNMENT N7 */
 
-/* 
-Introduction to Objects﻿
+/*
+Introduction to Objects
 Create an object called myCountry for a country of your choice, containing properties country, capital, language, population and neighbours (an array like we used in previous assignments).
 */
 
-/* 
+/*
 const myCountry = {
     country: 'Bulgaria',
     capital: 'Sofia',
@@ -168,7 +168,7 @@ const myCountry = {
 /* ASSIGNMENT N8 */
 
 /*
-Dot vs. Bracket Notation﻿
+Dot vs. Bracket Notation
 Using the object from the previous assignment, log a string like this to the console: 'Finland has 6 million finnish-speaking people, 3 neighbouring countries and a capital called Helsinki'.
 
 Increase the country's population by two million using dot notation, and then decrease it by two million using bracket notation.
@@ -185,3 +185,6 @@ console.log(myCountry.population);
 myCountry['population'] -= 2;
 console.log(myCountry.population);
 */
+
+// ASSIGNMENT N9;
+
