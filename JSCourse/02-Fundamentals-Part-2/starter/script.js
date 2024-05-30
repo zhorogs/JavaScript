@@ -309,4 +309,13 @@ if (friends.includes('zozo')) {
 
 // OBJECTS //
 
+//array
+const zhoroArray = [
+    'zhoro',
+    'slavchev',
+    2024 - 1991,
+    'support l2',
+    ['dudu', 'zhoro']
+];
+
 
