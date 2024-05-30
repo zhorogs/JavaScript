@@ -318,14 +318,24 @@ const zhoroArray = [
     ['dudu', 'zhoro']
 ];
 
-//we can reference only by order number
+//we can reference only by order number;
 
 //in objects, we define key value pairs;
 
-const zhoroObj = {
+const zhoroObject = {
     firstName: 'zhoro',
     lastName: 'slavchev',
     birthYear: 2024 - 1991,
     job: 't2 lever support engineer',
     friends: ['zhoro', 'dudu']
 };
+//object literal syntax;
+
+//each of these keys is also called a property;
+//objects are the most fundamental concepts in js;
+
+//use arrays for ordered data and objects for unordered data;
+
+//how do we get data from objects;
+
+
