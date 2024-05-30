@@ -318,4 +318,14 @@ const zhoroArray = [
     ['dudu', 'zhoro']
 ];
 
+//we can reference only by order number
 
+//in objects, we define key value pairs;
+
+const zhoroObj = {
+    firstName: 'zhoro',
+    lastName: 'slavchev',
+    birthYear: 2024 - 1991,
+    job: 't2 lever support engineer',
+    friends: ['zhoro', 'dudu']
+};
