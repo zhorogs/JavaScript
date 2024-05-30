@@ -338,4 +338,4 @@ const zhoroObject = {
 
 //how do we get data from objects;
 
-
+// DOT VS BRACKET NOTATION IN OBJECTS
