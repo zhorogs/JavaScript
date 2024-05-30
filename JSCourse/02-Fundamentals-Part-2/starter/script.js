@@ -390,4 +390,5 @@ console.log(zhoroObject);
 //challenge in the end of the video;
 //write 'Zhoro has 3 friends, and his best friend is called Dudu';
 
-console.log(zhoroObject.firstName)
+console.log(`${zhoroObject.firstName} has ${zhoroObject.friends.length} friends, and his best friend is called ${zhoroObject.friends[1]}.`);
+
