@@ -309,7 +309,7 @@ if (friends.includes('zozo')) {
 
 // OBJECTS //
 
-/* 
+/*
 //array
 const zhoroArray = [
     'zhoro',
@@ -342,6 +342,7 @@ const zhoroObject = {
 
 // DOT VS BRACKET NOTATION IN OBJECTS
 
+/* 
 const zhoroObject = {
     firstName: 'zhoro',
     lastName: 'slavchev',
@@ -391,4 +392,4 @@ console.log(zhoroObject);
 //write 'Zhoro has 3 friends, and his best friend is called Dudu';
 
 console.log(`${zhoroObject.firstName} has ${zhoroObject.friends.length} friends, and his best friend is called ${zhoroObject.friends[1]}.`);
-
+*/
