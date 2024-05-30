@@ -309,6 +309,7 @@ if (friends.includes('zozo')) {
 
 // OBJECTS //
 
+/* 
 //array
 const zhoroArray = [
     'zhoro',
@@ -325,7 +326,7 @@ const zhoroArray = [
 const zhoroObject = {
     firstName: 'zhoro',
     lastName: 'slavchev',
-    birthYear: 2024 - 1991,
+    age: 2024 - 1991,
     job: 't2 lever support engineer',
     friends: ['zhoro', 'dudu']
 };
@@ -337,5 +338,39 @@ const zhoroObject = {
 //use arrays for ordered data and objects for unordered data;
 
 //how do we get data from objects;
+*/
 
 // DOT VS BRACKET NOTATION IN OBJECTS
+
+console.log(zhoroObject);
+
+//dot notation to get data from the object;
+console.log(zhoroObject.lastName);
+
+//bracket notation;
+console.log(zhoroObject['lastName']);
+//in the bracket notation we can put any expression that we like, we can compute it from an operation (operation is an expression);
+
+const nameKey = 'Name';
+console.log(zhoroObject['first' + nameKey]);
+console.log(zhoroObject['last' + nameKey]);
+
+//same thing will not work for dot notation;
+
+//when to use dot and when to use bracket notation
+//when we need to compute the property name, we use bracket notation, in any other case use the dot notation;
+
+const interestedIn = prompt('What do you want to know about Zhoro? Choose between firstname, lastname, age, job and friends.');
+console.log(interestedIn);
+
+//we get undefined if we try to access a property on a object that does not exist
+
+console.log(zhoroObject[interestedIn]);
+
+//undefined is a falsy value;
+
+if (zhoroObject[interestedIn]) {
+    console.log(zhoroObject[interestedIn]);
+} else {
+    console.log(`Wrong choice. Choose between firstname, lastname, age, job and friends.`)
+}
