@@ -342,6 +342,14 @@ const zhoroObject = {
 
 // DOT VS BRACKET NOTATION IN OBJECTS
 
+const zhoroObject = {
+    firstName: 'zhoro',
+    lastName: 'slavchev',
+    age: 2024 - 1991,
+    job: 't2 lever support engineer',
+    friends: ['zhoro', 'dudu']
+};
+
 console.log(zhoroObject);
 
 //dot notation to get data from the object;
@@ -373,4 +381,13 @@ if (zhoroObject[interestedIn]) {
     console.log(zhoroObject[interestedIn]);
 } else {
     console.log(`Wrong choice. Choose between firstname, lastname, age, job and friends.`)
-}
+};
+
+zhoroObject.location = 'Bulgaria, Sofia'
+console.log(zhoroObject.location);
+console.log(zhoroObject);
+
+//challenge in the end of the video;
+//write 'Zhoro has 3 friends, and his best friend is called Dudu';
+
+console.log(zhoroObject.firstName)
