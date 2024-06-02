@@ -395,3 +395,5 @@ console.log(`${zhoroObject.firstName} has ${zhoroObject.friends.length} friends,
 */
 
 /* TEST COMMIT */
+
+/* OBJECT METHDS */
