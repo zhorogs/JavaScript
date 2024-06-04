@@ -89,5 +89,7 @@ const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
 
 //REVIEW CHALLENGE
 
+/* CODING CHALLENGE 3 */
+
 
 
