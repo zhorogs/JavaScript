@@ -59,7 +59,7 @@ checkWinner(scoreDolphins2, scoreKoalas2);
 */
 
 /*
-CHALLENGE #1
+CHALLENGE #2
 Steven wants you to improve his tip calculator, using the same rules as before — tip 15% of the bill if the bill value is between 50 and 300, and if the value is different, the tip is 20%.
 
 Your tasks:
