@@ -106,11 +106,7 @@ Log to the console who has the higher BMI, together with the full name and the r
 
 TEST DATA: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall.
 
-
-
 👋 OPTIONAL: You can watch my solution in video format in the next lecture
-
-
 
 IMPORTANT: The ** operator is not supported in this editor. Please make sure to use exactly this formula mass / (height * height), and not this one mass / (height ** 2). */
 
