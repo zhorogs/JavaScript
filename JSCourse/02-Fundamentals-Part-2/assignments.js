@@ -196,3 +196,5 @@ Call the describe method.
 
 Add a method called checkIsland to the myCountry object. This method will set a new property on the object, called isIsland. isIsland will be true if there are no neighbouring countries, and false if there are. Use the ternary operator to set the property.
 */
+
+/* Looping Arrays, Breaking and Continuing */
