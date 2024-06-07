@@ -206,3 +206,5 @@ Use a for loop to compute an array called percentages2 containing the percentage
 
 Confirm that percentages2 contains exactly the same values as the percentages array that we created manually in the previous assignment, and reflect on how much better this solution is.
 */
+
+/* Looping Backwards and Loops in Loops */
