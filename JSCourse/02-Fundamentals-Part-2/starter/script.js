@@ -398,6 +398,8 @@ console.log(`${zhoroObject.firstName} has ${zhoroObject.friends.length} friends,
 
 /* OBJECT METHDS */
 
+/* LOOPS */
+
 /*
 Add a method called describe to the myCountry object. This method will log a string to the console, similar to the string logged in the previous assignment, but this time using the 'this' keyword.
 
